@@ -1,0 +1,15 @@
+{
+  "name": "opencli-weixin-plugin",
+  "version": "1.2.0",
+  "private": true,
+  "description": "OpenCLI WeChat Official Account plugin: account management + draft creation (article + newspic)",
+  "scripts": {
+    "install-adapter": "node install.mjs",
+    "test": "npx vitest run",
+    "test:watch": "npx vitest"
+  },
+  "devDependencies": {
+    "@jackwener/opencli": "2.0.3",
+    "vitest": "^3.2.4"
+  }
+}
